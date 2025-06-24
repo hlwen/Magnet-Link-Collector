@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="shortcut icon" href="icons/magnet.svg"
+    type="image/x-icon" />
+  <meta charset="UTF-8">
+  <title>Magnet Link Cache</title>
+  <style>
+    body { width: 600px; padding: 10px; font-size: 14px; }
+    input[type="text"] { width: 100%; padding: 5px; margin-bottom: 10px; }
+    .link-item {display: flex; border-bottom: 1px solid #ddd; padding: 5px 0; }
+    .link-item small{
+      flex:1
+    }
+    .buts{
+      display: flex;
+    }
+    button { margin-left: 5px; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <input type="text" id="searchInput" placeholder="输入关键词搜索">
+  <div id="links"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
